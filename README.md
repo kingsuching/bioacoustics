@@ -6,5 +6,7 @@
 ### Sophia Chung | spchung@calpoly.edu
 
 Statistics Department
+
 Bailey College of Science and Mathematics
+
 California Polytechnic State University, San Luis Obispo, CA 93407
