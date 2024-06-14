@@ -5,14 +5,14 @@
 ### Anagha Sikha | arsikha@calpoly.edu
 ### Sophia Chung | spchung@calpoly.edu
 
-### Statistics Department
+Statistics Department
 
-### Bailey College of Science and Mathematics
+Bailey College of Science and Mathematics
 
-### California Polytechnic State University, San Luis Obispo, CA 93407
+California Polytechnic State University, San Luis Obispo, CA 93407
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 In the Winter of 2024, we implemented an ensemble method of the variational autoencoder. We developed two main notebooks, **vae.ipynb** and **vae_mel.ipynb**. The first notebook implements the variational autoencoder model on a regular spectrogram scale. However, the MEL notebook implemented MEL scaling. The two notebooks handle the entire data pipeline. They load in the data, preprocess it (MEL where necessary), and feed it into the model architecture. Lastly, they contain functions to calculate binary classification metrics.
 
