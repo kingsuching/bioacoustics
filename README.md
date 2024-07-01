@@ -14,9 +14,11 @@ California Polytechnic State University, San Luis Obispo, CA 93407
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-In the Winter of 2024, we implemented an ensemble method of the variational autoencoder. We developed two main notebooks, **vae.ipynb** and **vae_mel.ipynb**. The first notebook implements the variational autoencoder model on a regular spectrogram scale. However, the MEL notebook implemented MEL scaling. The two notebooks handle the entire data pipeline. They load in the data, preprocess it (MEL where necessary), and feed it into the model architecture. Lastly, they contain functions to calculate binary classification metrics.
+In the Winter of 2024, we implemented an ensemble method of the variational autoencoder, which can be found in the **VAE** folder. We developed two main notebooks, **vae.ipynb** and **vae_mel.ipynb**. The first notebook implements the variational autoencoder model on a regular spectrogram scale. However, the MEL notebook implemented MEL scaling. The two notebooks handle the entire data pipeline. They load in the data, preprocess it (MEL where necessary), and feed it into the model architecture. Lastly, they contain functions to calculate binary classification metrics.
 
-In Spring 2024, we experimented with a convolutional neural network. We looked at past team's work in the AWS notebooks and started to edit the **ConvertWavToSpec.ipynb** notebook to take in the Cal Poly Pier data. Like the variational autoencoder notebooks, they handle the entire data preprocessing pipeline. We were not able to edit the remaining notebooks in the pipeline **Develop&Train.ipynb** and **ModelEvaluation.ipynb**.
+In Spring 2024, we experimented with using a convolutional neural network and an object detection method. For the CNN, we looked at past team's work in the AWS notebooks and started to edit the **ConvertWavToSpec.ipynb** notebook to take in the Cal Poly Pier data. Like the variational autoencoder notebooks, they handle the entire data preprocessing pipeline. We were not able to edit the remaining notebooks in the pipeline **Develop&Train.ipynb** and **ModelEvaluation.ipynb**. All this work can be found in the **CNN** folder. For the object detection method, we followed a hugging face tutorial, and the notebook used is found in the **HuggingFace** folder.
+
+To find any summaries and details of the processes we followed and past work we looked at, look in to the files in the **Documents** folder.
 
 To future teams working on the project:
 
