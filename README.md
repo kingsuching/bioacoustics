@@ -18,7 +18,11 @@ In the Winter of 2024, we implemented an ensemble method of the variational auto
 
 In Spring 2024, we experimented with using a convolutional neural network and an object detection method. For the CNN, we looked at past team's work in the AWS notebooks and started to edit the **ConvertWavToSpec.ipynb** notebook to take in the Cal Poly Pier data. Like the variational autoencoder notebooks, they handle the entire data preprocessing pipeline. We were not able to edit the remaining notebooks in the pipeline **Develop&Train.ipynb** and **ModelEvaluation.ipynb**. All this work can be found in the **CNN** folder. For the object detection method, we followed a hugging face tutorial, and the notebook used is found in the **HuggingFace** folder.
 
-To find any summaries and details of the processes we followed and past work we looked at, look in to the files in the **Documents** folder.
+To find any summaries and details of the processes we followed, look in to the files in the **Documents** folder.
+
+The **Additional 2022-23 Work** folder contains code and documents from the past capstone team that followed a VAE model to detect sounds. 
+Here is a link for a master document of teams prior to 2023 that have worked on this project and the types of model they have employed: https://docs.google.com/document/d/12SHMhykuL04jecbKmSFf-QQHZUS1hxmyD8mSYjRnKmE/edit#heading=h.wws1dkltg00q 
+
 
 To future teams working on the project:
 
